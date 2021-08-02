@@ -1,5 +1,10 @@
 ## `jwt-go` Version History
 
+
+#### 3.2.2-go1.14
+
+Whilst go1.14 is not officially supported upstream anymore there are a few projects which require go1.14 compilation support. This forked release simply contains a workaround for go1.14.
+
 #### 3.2.2
 
 * Starting from this release, we are adopting the policy to support the most 2 recent versions of Go currently available. By the time of this release, this is Go 1.15 and 1.16 ([#28](https://github.com/golang-jwt/jwt/pull/28)).
